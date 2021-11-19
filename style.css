@@ -21,4 +21,11 @@ body{
 }
 .services_section{
     background-image: url(./Images/cto.jpg);
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
