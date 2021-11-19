@@ -32,3 +32,16 @@ body{
 .row .col img{
     margin: 5px;
 }
+.contact_section{
+    background-image: url(./Images/garage.jpg);
+    background-size: cover;
+    height: 70vh;
+    color: white;
+}
+.contact_section input{
+    background: #5F5A57;
+}
+.contact_section textarea{
+    background: #5F5A57;
+    margin-top: 10px;
+}
