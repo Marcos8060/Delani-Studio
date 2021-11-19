@@ -29,11 +29,6 @@ body{
     align-items: center;
     color: white;
 }
-.portfolio{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-.portfolio img{
-    width: 250px;
-    margin: 10px;
+.row .col img{
+    margin: 5px;
 }
