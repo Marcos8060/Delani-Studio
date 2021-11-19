@@ -45,3 +45,8 @@ body{
     background: #5F5A57;
     margin-top: 10px;
 }
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
