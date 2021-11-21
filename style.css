@@ -60,3 +60,12 @@ footer div{
     padding-bottom: 100px;
     margin-left: 100px;
 }
+.image:hover{
+    cursor: pointer;
+}
+.img1,.img2,.img3:hover{
+    cursor: pointer;
+}
+.para1,.para2,.para3:hover{
+    cursor: pointer;
+}

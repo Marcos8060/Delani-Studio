@@ -38,3 +38,11 @@ function toggleWhatWedo3(){
 toggleWhatWedo3();
 
 // portfolio hover effects
+   $(document).ready(function(){
+       $('.image').mouseenter(function(){
+           $(this).css("opacity","0.6");
+       })
+       $('.image').mouseout(function(){
+        $(this).css("opacity","12");
+    })
+   })
