@@ -1,3 +1,4 @@
+
 function toggleWhatWedo1(){
         $('.para1').hide();
         if($('.img1').on('click',function(){
@@ -48,4 +49,20 @@ toggleWhatWedo3();
    })
 
 //    contact section
+$('#form').submit(function(e){
+    e.preventDefault();
+    var name = $('#name').val();
+    var email = $('#email').val();
+    if(name !== '' && email !== ''){
+        alert(`${name} we have recieved your message, thank you for reaching out to us.`);
+    }else{
+        alert('Fill all the required fields');
+    }
+    clearInput();
+})
 
+function clearInput(){
+    $('.btn').click(function(){
+        $('input[type="text"]').val('');
+    })
+}

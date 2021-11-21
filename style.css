@@ -13,6 +13,12 @@ body{
     font-family: 'Poppins', sans-serif;
     color: white;
 }
+.dot{
+   border: 2px solid white;
+   border-radius: 10px;
+   width: 25px;
+   height: 60px;
+}
 .logo{
     font-size: 50px;
     border: 2px solid white;
@@ -35,7 +41,7 @@ body{
 .contact_section{
     background-image: url(./Images/garage.jpg);
     background-size: cover;
-    height: 70vh;
+    /* height: 75vh; */
     color: white;
 }
 .contact_section input{
@@ -51,10 +57,17 @@ body{
 .contact_section textarea::placeholder{
     color: white;
 }
+.contact_section .btn{
+    border: 2px solid black;
+    margin-top: 10px;
+}
 footer div{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+footer img{
+    margin: 5px;
 }
 /* jquery */
 .text{
@@ -92,4 +105,23 @@ footer div{
 }
 .image:hover .project{
     display: block;
+}
+/* media querry */
+@media (max-width:768px){
+    .serve{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icons{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+    .services_section{
+        height: 70vh;
+    }
+    .image:hover .project{
+        display: none;
+    }
 }
