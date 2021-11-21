@@ -50,3 +50,13 @@ footer div{
     justify-content: center;
     align-items: center;
 }
+/* jquery */
+.text{
+    width: 300px;
+}
+
+.serve{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 200px;
+}
