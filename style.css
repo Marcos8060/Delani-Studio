@@ -39,10 +39,10 @@ body{
     color: white;
 }
 .contact_section input{
-    background: #5F5A57;
+    background: transparent;
 }
 .contact_section textarea{
-    background: #5F5A57;
+    background: transparent;
     margin-top: 10px;
 }
 footer div{
