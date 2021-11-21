@@ -18,8 +18,12 @@ GitHub Pages is designed to host your personal, organization, or project pages f
  ## Technologies Used
  HTML, BOOTSTRAP, JQUERY
 
- ## Setup and Installation Instructions
- The project is setup in the visual studio code with an html file, javascript file and bootstrap plugin.
+ ## BDD
+ Copyright(c) 2021. Licenced under the MIT License.
+
+ The project runs in the visual studio code.
+ Download the jquery plugin from the jquery cdn then  run it inside a script tag.
+ Why was this framework chosen? With jquery, alot of javaScript functionality can be achieved with very few lines of code and in addition, it is very precise and easy to use and apply.
 
  ## Project Objectives
  The project will be evaluated based on the following objectives:
