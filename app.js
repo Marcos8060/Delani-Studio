@@ -58,11 +58,5 @@ $('#form').submit(function(e){
     }else{
         alert('Fill all the required fields');
     }
-    clearInput();
+    $('#form')[0].reset();
 })
-
-function clearInput(){
-    $('.btn').click(function(){
-        $('input[type="text"]').val('');
-    })
-}
