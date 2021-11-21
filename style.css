@@ -45,6 +45,12 @@ body{
     background: transparent;
     margin-top: 10px;
 }
+.contact_section input::placeholder{
+    color: white;
+}
+.contact_section textarea::placeholder{
+    color: white;
+}
 footer div{
     display: flex;
     justify-content: center;
@@ -68,4 +74,22 @@ footer div{
 }
 .para1,.para2,.para3:hover{
     cursor: pointer;
+}
+.img{
+    position: relative;
+    z-index: -1;
+}
+.project{
+    position: absolute;
+    margin-top: -140px;
+    margin-left: 60px;
+    font-weight: bolder;
+    border: 3px solid black;
+    color: black;
+    z-index: 1;
+    padding: 6px;
+    display: none;
+}
+.image:hover .project{
+    display: block;
 }

@@ -40,9 +40,12 @@ toggleWhatWedo3();
 // portfolio hover effects
    $(document).ready(function(){
        $('.image').mouseenter(function(){
-           $(this).css("opacity","0.6");
+           $(this).css("opacity","0.3");
        })
-       $('.image').mouseout(function(){
+       $('.image').mouseleave(function(){
         $(this).css("opacity","12");
     })
    })
+
+//    contact section
+
