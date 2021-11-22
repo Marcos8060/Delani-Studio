@@ -43,6 +43,7 @@ body{
 .contact_section{
     background-image: url(./Images/garage.jpg);
     background-size: cover;
+    overflow: hidden;
     /* height: 75vh; */
     color: white;
 }
@@ -79,7 +80,6 @@ footer img{
 .serve{
     padding-top: 100px;
     padding-bottom: 100px;
-    margin-left: 100px;
 }
 .image:hover{
     cursor: pointer;
